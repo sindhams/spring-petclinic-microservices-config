@@ -4,6 +4,7 @@
 eureka:
   instance:
     hostname: localhost
+    perferIpAddress: true
   # standalone mode
   client:
     registerWithEureka: false
