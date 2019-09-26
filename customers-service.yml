@@ -13,6 +13,8 @@ spring:
 server:
   port: 8081
 eureka:
+  instance:
+    hostname: customers-service
   client:
     serviceUrl:
       defaultZone: http://discovery-server:8761/eureka/
